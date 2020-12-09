@@ -1,0 +1,5 @@
+{
+    "go.inferGopath": false,
+    "git.ignoreLimitWarning": true,
+    "powermode.enabled": true
+}
