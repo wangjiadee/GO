@@ -1,0 +1,51 @@
+{
+    "go.useLanguageServer": true,
+    "timeline.excludeSources": [],
+
+    "[go]": {
+        "editor.snippetSuggestions": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    
+    "gopls": {
+        "completeUnimported": true,
+        "usePlaceholders": true,
+        "completionDocumentation": true,
+        "deepCompletion": true,        
+        "symbolMatcher ": true,
+        "matcher": true,
+        "hoverKind": "SynopsisDocumentation" // No/Synopsis/Full, default Synopsis
+    },
+    
+    "files.eol": "\n", // formatting only supports LF line endings
+
+    "go.languageServerExperimentalFeatures": {
+        "format": true,
+        "autoComplete": true,
+        "rename": true,
+        "goToDefinition": true,
+        "hover": true,
+        "signatureHelp": true,
+        "goToTypeDefinition": true,
+        "goToImplementation": true,
+        "documentSymbols": true,
+        "workspaceSymbols": true,
+        "findReferences": true,
+        "diagnostics": false
+    },
+    "emmet.excludeLanguages": [
+    
+        "markdown"
+    ],
+    "go.inferGopath": false,
+
+    "python.autoComplete.extraPaths": [
+        "G:\\pycharm\\Lib\\site-packages",
+        "G:\\pycharm\\Scripts",
+    ],
+    "python.jediEnabled": true,
+    "python.languageServer": "Jedi"
+}
