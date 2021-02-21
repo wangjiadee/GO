@@ -1,2 +1,2 @@
 # GO
-this is about go code(new)
+this is about go code(EE)
